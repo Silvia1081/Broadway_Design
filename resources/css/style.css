@@ -1,5 +1,5 @@
 body {
-font-family: "Helvetica"
+font-family: "Helvetica", sans-serif;
 }
 
 
@@ -16,36 +16,35 @@ background-position: center;
 background-size: cover;
 text-align: center;
 font-size: 18px;
+}
+
+.btn-nav {
+color: white;
 font-weight: bold;
 }
 
-a {
-color: white;
-}
-
-
 /*Process section*/
-.process {
+.supporting {
 text-align: center;
 }
 
-h2 {
+.supporting h2 {
 font-weight: bold;
 font-size: 32px;
 }
 
-h3 {
+.supporting h3 {
 font-weight: bold;
 font-size: 23px;
 }
 
-p {
+.supporting p {
 font-size: 14px;
 }
 
 
 /*Footer section*/
-#footer-title {
+.work-title {
 background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
 background-position: center;
 background-size: cover;
@@ -53,12 +52,9 @@ color: white;
 }
 
 /*Footer menu section*/
-#footer-menu {
+.footer {
 background-color: dimgray;
 color: white;
 text-align: left;
-}
-
-#copyright {
 font-size: 11px;
 }
