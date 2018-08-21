@@ -9,14 +9,17 @@ font-weight: bold;
 color: white;
 }
 
-#menù {
+.menu {
 background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
-color: white;
 text-align: center;
 font-size: 18px;
 }
 
-#process {
+a {
+color: white;
+}
+
+.process {
 text-align: center;
 }
 
@@ -37,4 +40,14 @@ font-size: 14px;
 #footer-title {
 background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
 color: white;
+}
+
+#footer-menu {
+background-color: dimgray;
+color: white;
+text-align: left;
+}
+
+#copyright {
+font-size: 11px;
 }
